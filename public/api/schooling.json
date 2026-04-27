@@ -1,0 +1,147 @@
+{
+  "liveClasses": [
+    {
+      "id": 1,
+      "subject": "Science Basics",
+      "teacher": "Prof. James Miller",
+      "time": "10:00 AM - 11:00 AM",
+      "status": "LIVE",
+      "icon": "Microscope",
+      "color": "blue",
+      "participants": ["/assets/avatar1.webp", "/assets/avatar2.webp", "/assets/avatar3.webp"],
+      "extraParticipants": 24
+    },
+    {
+      "id": 2,
+      "subject": "Mathematics - Grade 8",
+      "teacher": "Dr. Sarah Wilson",
+      "time": "11:30 AM - 12:30 PM",
+      "status": "UPCOMING",
+      "icon": "Ruler",
+      "color": "amber",
+      "participants": ["/assets/avatar1.webp", "/assets/avatar2.webp"],
+      "extraParticipants": 18
+    },
+    {
+      "id": 3,
+      "subject": "English Literature",
+      "teacher": "Ms. Emily Davis",
+      "time": "2:00 PM - 3:00 PM",
+      "status": "UPCOMING",
+      "icon": "Book",
+      "color": "green",
+      "participants": ["/assets/avatar1.webp"],
+      "extraParticipants": 20
+    },
+    {
+      "id": 4,
+      "subject": "Social Studies",
+      "teacher": "Mr. Robert Brown",
+      "time": "3:30 PM - 4:30 PM",
+      "status": "UPCOMING",
+      "icon": "Globe",
+      "color": "pink",
+      "participants": [],
+      "extraParticipants": 20
+    }
+  ],
+  "myCourses": [
+    {
+      "id": 101,
+      "title": "Mathematics - Grade 8",
+      "teacher": "Dr. Sarah Wilson",
+      "progress": 45,
+      "icon": "Divide",
+      "color": "indigo"
+    },
+    {
+      "id": 102,
+      "title": "Science Basics",
+      "teacher": "Prof. James Miller",
+      "progress": 70,
+      "icon": "TestTube",
+      "color": "emerald"
+    }
+  ],
+  "recordedLessons": [
+    {
+      "id": 201,
+      "title": "Linear Equations in One Variable",
+      "subject": "Mathematics - Grade 8",
+      "date": "May 10, 2024",
+      "duration": "24:15",
+      "progress": 60,
+      "status": "CONTINUE",
+      "thumbnail": "/assets/algebera.jpeg"
+    },
+    {
+      "id": 202,
+      "title": "Introduction to Cells",
+      "subject": "Science Basics",
+      "date": "May 8, 2024",
+      "duration": "18:40",
+      "progress": 100,
+      "status": "COMPLETED",
+      "thumbnail": "/assets/science_thumb.webp"
+    },
+    {
+      "id": 203,
+      "title": "Ancient Civilizations",
+      "subject": "Social Studies",
+      "date": "May 6, 2024",
+      "duration": "30:12",
+      "progress": 30,
+      "status": "CONTINUE",
+      "thumbnail": "/assets/history_thumb.webp"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 301,
+      "title": "Math Homework",
+      "due": "Tomorrow, 11:59 PM",
+      "type": "homework",
+      "icon": "Calendar"
+    },
+    {
+      "id": 302,
+      "title": "Science Project",
+      "due": "May 18, 11:59 PM",
+      "type": "project",
+      "icon": "FlaskConical"
+    },
+    {
+      "id": 303,
+      "title": "English Essay",
+      "due": "May 20, 11:59 PM",
+      "type": "essay",
+      "icon": "FileText"
+    }
+  ],
+  "todaySchedule": [
+    {
+      "id": 401,
+      "time": "10:00 AM",
+      "title": "Science Basics",
+      "status": "LIVE"
+    },
+    {
+      "id": 402,
+      "time": "11:30 AM",
+      "title": "Mathematics - Grade 8",
+      "status": "UPCOMING"
+    },
+    {
+      "id": 403,
+      "time": "2:00 PM",
+      "title": "English Literature",
+      "status": "UPCOMING"
+    },
+    {
+      "id": 404,
+      "time": "3:30 PM",
+      "title": "Social Studies",
+      "status": "UPCOMING"
+    }
+  ]
+}
