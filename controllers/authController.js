@@ -12,7 +12,7 @@ const generateToken = (id) => {
 
 const registerUser = async (req, res) => {
     try {
-        const { username, email, password } = req.body;
+        const { username, email, password, role, className } = req.body;
 
         if (!username || !email || !password) {
             return res.status(400).json({ message: 'Please add all fields' });
@@ -29,6 +29,8 @@ const registerUser = async (req, res) => {
             username,
             email,
             password: hashedPassword,
+            role: role || 'student',
+            className: className || null,
         });
 
         if (user) {
@@ -36,6 +38,8 @@ const registerUser = async (req, res) => {
                 _id: user.id,
                 username: user.username,
                 email: user.email,
+                role: user.role,
+                className: user.className,
                 token: generateToken(user.id),
             });
         } else {
@@ -59,6 +63,8 @@ const loginUser = async (req, res) => {
                 _id: user.id,
                 username: user.username,
                 email: user.email,
+                role: user.role,
+                className: user.className,
                 token: generateToken(user.id),
             });
         } else {
