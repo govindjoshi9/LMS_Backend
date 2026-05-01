@@ -1,0 +1,44 @@
+{
+  "countries": [
+    { "code": "UK", "name": "United Kingdom" },
+    { "code": "IN", "name": "India" },
+    { "code": "US", "name": "United States" },
+    { "code": "AU", "name": "Australia" },
+    { "code": "CA", "name": "Canada" },
+    { "code": "AE", "name": "UAE" },
+    { "code": "SG", "name": "Singapore" }
+  ],
+  "schools": [
+    { "code": "DW01", "name": "Dawnwood Academy",           "city": "London",      "countryCode": "UK" },
+    { "code": "WH02", "name": "Westfield High School",      "city": "Manchester",  "countryCode": "UK" },
+    { "code": "OP03", "name": "Oxford Prep School",         "city": "Oxford",      "countryCode": "UK" },
+    { "code": "DP01", "name": "Delhi Public School",        "city": "New Delhi",   "countryCode": "IN" },
+    { "code": "MI02", "name": "Mumbai International School","city": "Mumbai",      "countryCode": "IN" },
+    { "code": "BG03", "name": "Bangalore Global Academy",   "city": "Bangalore",   "countryCode": "IN" },
+    { "code": "SH01", "name": "Springfield High School",    "city": "Springfield", "countryCode": "US" },
+    { "code": "LA02", "name": "Lincoln Academy",            "city": "Chicago",     "countryCode": "US" },
+    { "code": "SG01", "name": "Sydney Grammar School",      "city": "Sydney",      "countryCode": "AU" },
+    { "code": "MA02", "name": "Melbourne Academy",          "city": "Melbourne",   "countryCode": "AU" },
+    { "code": "TI01", "name": "Toronto International Academy","city": "Toronto",   "countryCode": "CA" },
+    { "code": "VL02", "name": "Vancouver Learning Centre",  "city": "Vancouver",   "countryCode": "CA" },
+    { "code": "DK01", "name": "Dubai Knowledge School",     "city": "Dubai",       "countryCode": "AE" },
+    { "code": "AD02", "name": "Abu Dhabi Academy",          "city": "Abu Dhabi",   "countryCode": "AE" },
+    { "code": "SI01", "name": "Singapore International School","city": "Singapore","countryCode": "SG" }
+  ],
+  "classes": [
+    { "code": "A01", "name": "Class 1" },
+    { "code": "A02", "name": "Class 2" },
+    { "code": "A03", "name": "Class 3" },
+    { "code": "A04", "name": "Class 4" },
+    { "code": "A05", "name": "Class 5" },
+    { "code": "B06", "name": "Class 6" },
+    { "code": "B07", "name": "Class 7" },
+    { "code": "B08", "name": "Class 8" },
+    { "code": "B09", "name": "Class 9" },
+    { "code": "C10", "name": "Class 10" },
+    { "code": "C11", "name": "Class 11 - Science" },
+    { "code": "C12", "name": "Class 12 - Science" },
+    { "code": "D11", "name": "Class 11 - Commerce" },
+    { "code": "D12", "name": "Class 12 - Commerce" }
+  ]
+}
