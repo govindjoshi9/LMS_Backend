@@ -44,10 +44,16 @@ const EventSchema = new mongoose.Schema({
     enum: ['global', 'class'],
     default: 'class',
   },
-  // targetClass specifies which class gets the event if scope is 'class'
+  // targetClass + targetSchool together uniquely scope the event to one school's class
+  // (prevents UK Class-1 events leaking to India Class-1 students)
   targetClass: {
     type: String,
     trim: true,
+  },
+  targetSchool: {
+    type: String,
+    trim: true,
+    default: null,
   }
 }, {
   timestamps: true 
