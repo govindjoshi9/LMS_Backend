@@ -62,8 +62,29 @@ const createEvent = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
+const deleteEvent = async (req, res) => {
+    try {
+        const { id } = req.params;
+
+        if (req.user.role !== 'admin') {
+            return res.status(403).json({ message: 'Only admin can delete events' });
+        }
+
+        const event = await Event.findByIdAndDelete(id);
+
+        if (!event) {
+            return res.status(404).json({ message: 'Event not found' });
+        }
+
+        res.status(200).json({ message: 'Event deleted successfully' });
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
 
 module.exports = {
     getEvents,
-    createEvent
+    createEvent,
+    deleteEvent
 };
